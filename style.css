@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color :#FFFFFF;
+    cursor: pointer;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    Padding:23.5px 0px;
+    max-width: 1360px;
+    margin: auto;
+
+}
+nav.menu{
+    display:flex;
+    list-style-type: none;
+    gap: 12px;
+    
+}
+nav .menu a{
+    text-decoration: none;
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+nav .btn{
+
+    padding: 12px 41.5px;
+    font-size: 16px;
+}
+#banner{
+    background: url(../B14-A01-DevConf-2026/assets/banner.jpg);
+    background-color: #000000cc;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 136px;
+    padding-bottom: 79px;
+}
+.banner-content{
+    font-family: "Inter", sans-serif;
+    color:#FFFFFF;
+}
+.banner-content h1{
+    font-weight: 700;
+    font-size: 80px;
+    padding-bottom: 16px;
+
+}
+.banner-content p{
+    font-weight: 400;
+    font-size: 22px;
+}
+#banner.btn{
+    font-size: 24px;
+    padding:25px 62.5px;
+    margin-top: 278px;
+}
