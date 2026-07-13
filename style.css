@@ -12,6 +12,7 @@
     background-color: #1D4ED8;
     border: none;
     border-radius: 10px;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     color :#FFFFFF;
     cursor: pointer;
@@ -32,7 +33,7 @@ nav{
     margin: auto;
 
 }
-nav.menu{
+nav .menu{
     display:flex;
     list-style-type: none;
     gap: 12px;
@@ -50,6 +51,7 @@ nav .btn{
     padding: 12px 41.5px;
     font-size: 16px;
 }
+/* Hero section */
 #banner{
     background: url(./assets/banner.jpg);
     background-color: #000000cc;
@@ -72,11 +74,13 @@ nav .btn{
     font-weight: 400;
     font-size: 22px;
 }
-#banner.btn{
+#banner .btn{
     font-size: 24px;
     padding:25px 62.5px;
     margin-top: 278px;
 }
+/* Speakers Section */
+
 #speakers{
     padding-top: 80px;
     padding-bottom: 136px;
@@ -102,7 +106,7 @@ nav .btn{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-speaker card h6{
+.speaker-card h6{
     font-weight: 600;
     font-size: 12px;
     color: #2563EB;
@@ -121,10 +125,9 @@ speaker card h6{
     color: #575757;
     padding: 0px 0px 24px 24px;
 }
-.speaker-card img{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
+
+/* Pricing Section */
+
 #pricing{
     padding-bottom: 80px;
 }
@@ -227,10 +230,15 @@ speaker card h6{
 }
 /* Why Attend Section */
 
-/* #why-attend{
+#why-attend{
     padding:80px 0;
-} */
-
+}
+.attend-container{
+    max-width:1360px;
+    margin:0 auto;
+    padding:0 20px;
+    text-align:center;
+}
 .section-badge{
     display:inline-block;
     border:2px solid #2563EB;
